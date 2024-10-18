@@ -11,3 +11,170 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  display: flex;
+  /* margin-left: 1rem; */
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+h1{
+  width: 100%;
+  font-size: 3.3rem;
+  font-style: italic;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+.all-cart{
+  display: flex;
+  max-width: 980px;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-left: 1.5rem;
+  justify-content: center;
+}
+
+.addedCart{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.heading{
+  background-color: rgb(153, 154, 125);
+  border-radius: 1rem;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.show{
+  height: 100vw;
+  width: 350px;
+  position: fixed;
+  left: 1095px;
+  background-color: rgb(114, 132, 125);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.cart{
+  height: 600px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.your-choice{
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 275px;
+  height: 90px;
+}
+
+img{
+  width: 100%;
+  height: 250px;
+}
+
+.choice{
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+button{
+  font-size: 1.3rem;
+  background-color: bisque;
+  border-radius: 17px;
+  font-weight: bold;
+  width: 150px;
+  height: 45px;
+  margin-top: 15px;
+}
+
+.para{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.ice-cream-name{
+  font-size: 1.9rem;
+  margin: 19px;
+}
+
+.content{
+  margin:0px;
+}
+
+.pink{
+  color: rgb(31, 114, 81);
+}
+
+.remove-btn{
+  font-size: .8rem;
+  background-color: bisque;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 120px;
+  height: 25px;
+  margin: 0px;
+}
+
+select{
+  position: fixed;
+  bottom: 10px;
+  height:  30px;
+  width: 90px;
+}
+
+@media only screen and (max-width: 1350px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .show{
+    height: 100vw;
+    width: 350px;
+    position: relative;
+    left:33%;
+    background-color: rgb(114, 132, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .show{
+    height: 100vw;
+    width: 350px;
+    position: relative;
+    left:28%;
+    background-color: rgb(114, 132, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+}
